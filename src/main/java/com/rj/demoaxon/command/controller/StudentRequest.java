@@ -1,0 +1,30 @@
+package com.rj.demoaxon.command.controller;
+
+public class StudentRequest {
+    private String name;
+    private String address;
+
+    private StudentRequest() {
+    }
+
+    public StudentRequest(String name, String address) {
+        this.name = name;
+        this.address = address;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+}
